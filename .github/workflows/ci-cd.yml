@@ -237,7 +237,7 @@ jobs:
 
       - name: Extract metadata for ${{ matrix.service.name }}
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: ${{ env.DOCKER_REPOSITORY }}
           tags: |
