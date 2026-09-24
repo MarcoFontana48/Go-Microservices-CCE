@@ -2,7 +2,7 @@ module github.com/MarcoFontana48/AUSL-Romagna-CCE-Microservices-Project-Proposal
 
 go 1.24
 
-require github.com/sony/gobreaker/v2 v2.1.0
+require github.com/sony/gobreaker/v2 v2.4.0
 
 require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
